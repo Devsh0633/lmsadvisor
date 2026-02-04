@@ -97,7 +97,7 @@ export default async function GuideDetail({ params }: { params: Promise<{ slug: 
                                 ))
                             ) : (
                                 <>
-                                    <a href="#" className={styles.relatedLink}>Any experience with SimplyTrain for 5000+ users?</a>
+                                    <a href="#" className={styles.relatedLink}>Any experience with SimpliTrain for 5000+ users?</a>
                                     <a href="#" className={styles.relatedLink}>Implementation timelines: Realistic or sales fluff?</a>
                                 </>
                             )}
