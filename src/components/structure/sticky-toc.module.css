@@ -1,0 +1,38 @@
+.container {
+    position: sticky;
+    top: 100px;
+    /* Header height + spacing */
+    padding-left: 1rem;
+    border-left: 2px solid #E0E0E0;
+}
+
+.title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    font-weight: 700;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.list {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.item {
+    margin-bottom: 0.75rem;
+}
+
+.link {
+    color: var(--color-text-secondary);
+    transition: color 0.2s, font-weight 0.2s;
+    display: block;
+    line-height: 1.4;
+}
+
+.link:hover,
+.active {
+    color: var(--color-primary);
+    font-weight: 600;
+}

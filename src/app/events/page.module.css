@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    overflow: hidden;
+    background: white;
+}
+
+.dateBox {
+    background: var(--color-primary);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+.title {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+}
+
+.info {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.rsvp {
+    display: block;
+    background: var(--color-bg-secondary);
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    color: var(--color-primary);
+    font-weight: 600;
+}

@@ -1,0 +1,64 @@
+.card {
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    margin-bottom: 1rem;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 0.25rem;
+}
+
+.subtitle {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+.vsContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--color-primary);
+}
+
+.vs {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+    font-style: italic;
+}
+
+.disclosure {
+    font-size: 0.7rem;
+    color: var(--color-text-secondary);
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px dashed #E0E0E0;
+}
+
+.cta {
+    background: var(--color-bg-secondary);
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 4px;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}

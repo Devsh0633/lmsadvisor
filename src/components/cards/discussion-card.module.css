@@ -1,0 +1,70 @@
+.card {
+    border: 1px solid #E0E0E0;
+    border-left: 3px solid var(--color-accent);
+    border-radius: 4px;
+    /* Less rounded for forum feel */
+    padding: 1rem;
+    background: white;
+    margin-bottom: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.card:hover {
+    background-color: #FAFAFA;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.avatar {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-secondary);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.category {
+    font-size: 0.75rem;
+    color: var(--color-text-secondary);
+    background: #F0F0F0;
+    padding: 0.1rem 0.4rem;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 1rem;
+    /* Smaller than guides */
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.stats {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+.statItem {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.timestamp {
+    margin-left: auto;
+    font-style: italic;
+    font-size: 0.75rem;
+}

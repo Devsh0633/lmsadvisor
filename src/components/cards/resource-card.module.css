@@ -1,0 +1,51 @@
+.card {
+    border: 1px solid #E0E0E0;
+    border-radius: 6px;
+    padding: 1rem;
+    background: #FAFAFA;
+    /* Slightly distinct bg for util */
+    transition: border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card:hover {
+    border-color: var(--color-primary);
+    background: white;
+}
+
+.type {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.title {
+    font-family: 'Inter', sans-serif;
+    /* Use Inter for utility, not Source Sans */
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.description {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.action {
+    font-size: 0.8rem;
+    color: var(--color-accent);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
