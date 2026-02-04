@@ -79,7 +79,7 @@ export default async function GuideDetail({ params }: { params: Promise<{ slug: 
                         {/* Mock Sponsored List */}
                         <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                             <div style={{ width: 30, height: 30, background: '#eee', borderRadius: 4 }}></div>
-                            <span style={{ fontWeight: 600 }}>SimplyTrain</span>
+                            <span style={{ fontWeight: 600 }}>SimpliTrain</span>
                         </div>
                         <div style={{ marginBottom: '1rem', display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
                             <div style={{ width: 30, height: 30, background: '#eee', borderRadius: 4 }}></div>
